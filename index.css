@@ -1,0 +1,23 @@
+body {
+    height: 95vh;
+    width: 95vw;
+    background-color: rgb(85, 85, 85);
+}
+
+.alert {
+    border: none !important;
+    color: red;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#citations, #citations input {
+    margin: 10px;
+}
+
+.elcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
